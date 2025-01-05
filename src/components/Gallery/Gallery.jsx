@@ -4,11 +4,12 @@ import { Link, Outlet } from "react-router-dom";
 export default function Gallery() {
   return (
     <>
-      <section className=" gallery overflow-hidden">
+      <section className="gallery overflow-hidden">
         <div className="container bg-white my-3">
           <div className="row">
             <div className="col-md-3">
-              <ul>
+              <h2 className="text-warning">Sidebar</h2>
+              <ul className=" list-unstyled">
                 <li>
                   <Link to={""}>Price </Link>{" "}
                 </li>

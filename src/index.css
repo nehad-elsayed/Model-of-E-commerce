@@ -99,6 +99,17 @@ button:focus-visible {
 .gallery{
   margin-top: 70px;
 }
+.gallery ul a{
+
+  color: green;
+  text-decoration: none;
+  background-color: #b2dead;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  margin-block: 5px ;
+  width: fit-content;
+}
 
 .loading {
   height: 100vh;
