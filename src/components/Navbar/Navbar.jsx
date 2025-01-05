@@ -9,7 +9,7 @@ export default function Navbar() {
             E-Commerce-App
           </NavLink>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler text-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

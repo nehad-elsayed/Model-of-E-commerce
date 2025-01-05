@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import "./index.css";
@@ -29,7 +30,7 @@ createRoot(document.getElementById("root")).render(
 
 //*5-To write js inside html we should use {} "binding"
 
-//*6-To render any component it must be inside jsx selector 
+//*6-To render any component it must be inside jsx selector
 
 //*7-Render component :it means display component (Run the return Statement code)
 
