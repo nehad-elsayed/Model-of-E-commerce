@@ -13,6 +13,8 @@ createRoot(document.getElementById("root")).render(
   </StrictMode>
 );
 
+
+
 //*Important**Notes**
 
 //*--we use file main.jsx to ATTACh index.html with AppComponent

@@ -19,7 +19,7 @@ let x = createBrowserRouter([
         path: "gallery",
         element: <Gallery />,
         children: [
-          { index: true, element: <Price /> },
+          { index:true , element: <Price /> },
           { path: "quantity", element: <Quantity /> },
         ],
       },

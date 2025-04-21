@@ -9,7 +9,7 @@ export default function Home() {
     let {
       data: { data: myData },
     } = await axios.get(`https://ecommerce.routemisr.com/api/v1/products`);
-    console.log(myData);
+    console.log(myData); // why does this repeating ?/
     setProducts(myData);
   }
 
@@ -20,6 +20,7 @@ export default function Home() {
   return (
     <>
       {products.length == 0 ? (
+        
         <div className="loading">
           <span className="loader"></span>
         </div>
